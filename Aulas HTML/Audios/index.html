@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>
+    <h1>colocando audio no site</h1>
+    <h3>forma simples</h3>
+    <audio src="happy-mistake.mp3" controls></audio>
+
+    <!--em auto o site só vai carregar apos o audio tiver carregado, em metadata vai carregar informações do audio e none não vai carregar nada só se der play-->
+    <h3>forma profissional</h3>
+    <audio preload="metadata" autoplay controls>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <source src="guanacast-33.mp3" type="source/ogg">
+        <source src="guanacast-33.mp3" type="audio/wave">
+        <p>Infelizmente seu navegador não consegue reproduzir o audio. <a href="guanacast-33.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>

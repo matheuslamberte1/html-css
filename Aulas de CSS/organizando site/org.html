@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu site</title>
+    <style>
+        body{
+            background-color: rgb(138, 252, 214);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(0, 217, 145);
+            padding: 10px;
+            margin: 20px;
+            text-align: center;  
+        }
+        main{
+            background-color: rgb(0, 217, 145);
+            padding: 20px;
+            margin: 20px;
+        }
+        nav{
+            background-color: aqua;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        article{
+            background-color: rgb(249, 249, 249);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body> <!--tudo abaixo é como se fosse div-->
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--menu, vc vai colocar os links de navegação no site-->
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        </nav>
+    </header>
+    <main> <!--conteudo principal-->
+        <section id="assuntos"> <!--seção-->
+
+        </section>
+        <section id="noticias">
+            <article> <!--artigo-->
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos blanditiis earum recusandae doloribus non sit quod quaerat, veritatis voluptatem, hic quam adipisci harum odio quae est provident unde delectus enim!</p>
+                <aside> <!--conteudo periferico ao artigo-->
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!--rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+</body>
+</html>
